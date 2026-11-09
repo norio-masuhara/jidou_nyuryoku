@@ -1,3 +1,5 @@
 氏名：{name}
 住所：{address}
 生年月日：{birthday}
+職歴：
+{shokureki}
