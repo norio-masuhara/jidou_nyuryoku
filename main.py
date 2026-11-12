@@ -1,8 +1,8 @@
 with open('data.txt', encoding='utf-8') as f:
     lines = f.readlines()
-name = lines[0].strip()
-address = lines[1].strip()
-birthday = lines[2].strip()
+name = lines[0].strip().split('：')[1]
+address = lines[1].strip().split('：')[1]
+birthday = lines[2].strip().split('：')[1]
 shokureki = []
 for line in lines[3:]:
     shokureki.append(line.strip())
