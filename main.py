@@ -6,6 +6,8 @@ birthday = lines[2].strip().split('：')[1]
 shokureki = []
 for line in lines[3:]:
     shokureki.append(line.strip())
+    parts = line.split(' ')
+    print(parts[0], parts[1])
 print(shokureki)
 shokureki_text = '\n'.join(shokureki)
 
